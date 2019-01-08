@@ -1,6 +1,10 @@
 
 /* general styling */
 
+html, body {
+	height: 100%
+}
+
 a {
 	text-decoration: none;
 	color:#222;
@@ -39,7 +43,8 @@ li {
 
 #button {
 	background-color:#4387fd;
-	border:none;
+	border-radius:2px;
+	border:#4387fd;
 	color:white;
 	display:inline-block;
 	cursor:pointer;
@@ -64,24 +69,65 @@ li {
 }
 
 .topnav {
-	line-height: 34px;
-	height: 34px;
-	width: 50px
+	height: 30px;
 	font:16px arial, sans-serif;
 	background-color: none;
 	display:flex;
 	justify-content:center;
 }
 
+
 .searchbutton
 
 {
 	list-style-type:none;
-	margin : 0;
-	padding : 0;
 	font-size : medium; 
+	display:flex;
+	justify-content:center;
+	margin-right: 45px;
+	height: 300px;
+
+}
+
+.button2 {
+	background-color:#f2f2f2;
+	border:none;
+	color:#757575;
+	display:inline-block;
+	cursor:pointer;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	height: 30px;
+	width: 50px
+	padding: 5 50px;
+	text-align: center;
 }
 
 
+.footer{
+	position: absolute;
+	left : 0;
+	bottom: 0;
+	width: 100vw;
+}
 
+.country {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+
+
+}
+
+.information {
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+
+}
 /* class for the footer*/
