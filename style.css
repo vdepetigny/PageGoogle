@@ -1,10 +1,6 @@
 
 /* general styling */
 
-html, body {
-	height: 100%
-}
-
 a {
 	text-decoration: none;
 	color:#222;
@@ -106,28 +102,30 @@ li {
 }
 
 
-.footer{
-	position: absolute;
-	left : 0;
-	bottom: 0;
-	width: 100vw;
+.end{
+    position: fixed; 
+    margin-left: -1px;
+    bottom:0%;
+    width: 100%; 
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
 }
 
 .country {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
-
-
-
+	border-style: solid;
+	border-color : #e4e4e4;
+	border-width: 1pt;
 }
 
 .information {
-	height: 300px;
 	display: flex;
 	justify-content: space-between;
-	flex-direction: column;
+}
 
-
+.information1 {
+	color: rgba(0,0,0,.54);
 }
 /* class for the footer*/
