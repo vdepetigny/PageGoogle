@@ -1,9 +1,87 @@
-ul {
-	list-style-type: none;
-	margin : 0;
-	padding : 0;
+
+/* general styling */
+
+a {
+	text-decoration: none;
+	color:#222;
 }
 
 li {
 	display: inline;
+	align-items: center;
+	margin-right: 10px;
 }
+
+/* classes for the header */
+
+
+.highbar
+{
+	list-style-type:none;
+	margin-left: 500px
+	padding : 0;
+	font-family: arial,sans-serif;
+	font-size : small;
+	color: #222;
+	outline: none;
+	height: 160px;
+	width: 100%;
+	background-color: none;
+	display:flex;
+	justify-content:flex-end;
+
+}
+
+.highbar img {
+	width: 20px;
+	height: auto;
+}
+
+#button {
+	background-color:#4387fd;
+	border:none;
+	color:white;
+	display:inline-block;
+	cursor:pointer;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	height: 30px;
+	width: 50px
+	padding: 0 12px;
+}
+
+
+/* class for searchtool*/
+
+.logo {	
+	display:flex;
+	justify-content:center;
+}
+
+.logo img {
+	width: 272px;
+	height: auto;
+}
+
+.topnav {
+	line-height: 34px;
+	height: 34px;
+	width: 50px
+	font:16px arial, sans-serif;
+	background-color: none;
+	display:flex;
+	justify-content:center;
+}
+
+.searchbutton
+
+{
+	list-style-type:none;
+	margin : 0;
+	padding : 0;
+	font-size : medium; 
+}
+
+
+
+/* class for the footer*/
